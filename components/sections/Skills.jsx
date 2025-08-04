@@ -9,7 +9,7 @@ const skillCategories = [
     title: "Frontend",
     icon: Globe,
     color: "from-blue-500 to-cyan-500",
-    skills: ["React", "Next.js", "Vue.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
   },
   {
     title: "Backend",
@@ -27,20 +27,14 @@ const skillCategories = [
     title: "Mobile",
     icon: Smartphone,
     color: "from-pink-500 to-rose-500",
-    skills: ["React Native", "Flutter", "Expo", "PWA", "Responsive Design"],
+    skills: ["React Native", "Expo", "PWA", "Responsive Design"],
   },
   {
     title: "Tools",
     icon: Code2,
     color: "from-orange-500 to-yellow-500",
     skills: ["Git", "Docker", "AWS", "Vercel", "Figma", "VS Code"],
-  },
-  {
-    title: "Design",
-    icon: Palette,
-    color: "from-indigo-500 to-purple-500",
-    skills: ["UI/UX", "Figma", "Adobe XD", "Photoshop", "Wireframing"],
-  },
+  }
 ]
 
 export default function Skills() {

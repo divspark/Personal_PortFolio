@@ -64,7 +64,7 @@ export default function About() {
                 technologies.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                My journey in tech started with competitive programming, where I achieved a 4-star rating on CodeChef.
+                My journey in tech started with competitive programming, where I achieved a 2-star rating on CodeChef.
                 This problem-solving mindset now drives my approach to software development.
               </p>
             </motion.div>
@@ -127,7 +127,7 @@ export default function About() {
                   color: "from-cyan-500 to-blue-500",
                 },
                 {
-                  number: "4⭐",
+                  number: "2⭐",
                   label: "CodeChef Rating",
                   desc: "Competitive programming achievements",
                   color: "from-yellow-500 to-orange-500",

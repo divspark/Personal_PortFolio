@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Download, MapPin, Mail, Phone } from "lucide-react"
+import { Download, MapPin, Mail, Phone, Github, Linkedin } from "lucide-react"
 import PageHeader from "@/components/ui/PageHeader"
 
 export default function ResumePage() {
@@ -19,9 +19,18 @@ export default function ResumePage() {
           transition={{ duration: 0.6 }}
           className="text-center mb-8"
         >
-          <Button className="bg-blue-600 hover:bg-blue-700">
-            <Download className="w-4 h-4 mr-2" />
-            Download PDF
+          <Button
+            asChild
+            className="bg-blue-600 hover:bg-blue-700"
+          >
+            <a
+              href="https://drive.google.com/file/d/1xJEQfP2Wg8DWAiY1GRJd4CrRVs-wDB9T/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Download className="w-4 h-4 mr-2" />
+              Download PDF
+            </a>
           </Button>
         </motion.div>
 
@@ -45,7 +54,29 @@ export default function ResumePage() {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Phone className="w-4 h-4 mr-3" />
-                  <span className="text-sm">+91 XXXXX XXXXX</span>
+                  <span className="text-sm">+91 9336700274</span>
+                </div>
+                <div className="flex items-center text-gray-300">
+                  <Github className="w-4 h-4 mr-3" />
+                  <a
+                    href="https://github.com/divspark"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm hover:underline"
+                  >
+                    github.com/divspark
+                  </a>
+                </div>
+                <div className="flex items-center text-gray-300">
+                  <Linkedin className="w-4 h-4 mr-3" />
+                  <a
+                    href="https://www.linkedin.com/in/divyansh-kesharwani-87b5a9195/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm hover:underline"
+                  >
+                    LinkedIn Profile
+                  </a>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="w-4 h-4 mr-3" />
@@ -64,7 +95,9 @@ export default function ResumePage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Frontend</h4>
                     <div className="flex flex-wrap gap-2">
-                      {["React", "Next.js", "Vue.js", "TypeScript", "Tailwind CSS"].map((skill) => (
+                      {[
+                        "HTML","CSS","Javascript","ReactJs","Next.js","React Native","Tailwind CSS","Material UI","Mantine UI"
+                      ].map((skill) => (
                         <Badge key={skill} variant="secondary" className="bg-blue-600 text-white">
                           {skill}
                         </Badge>
@@ -74,7 +107,9 @@ export default function ResumePage() {
                   <div>
                     <h4 className="text-gray-300 font-medium mb-2">Backend</h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Node.js", "Express", "MongoDB", "PostgreSQL", "Python"].map((skill) => (
+                      {[
+                        "NodeJs","ExpressJs","Nest.js","Django","SpringBoot","FastApi","Python"
+                      ].map((skill) => (
                         <Badge key={skill} variant="secondary" className="bg-green-600 text-white">
                           {skill}
                         </Badge>
@@ -82,10 +117,24 @@ export default function ResumePage() {
                     </div>
                   </div>
                   <div>
-                    <h4 className="text-gray-300 font-medium mb-2">Tools</h4>
+                    <h4 className="text-gray-300 font-medium mb-2">Databases & Cloud</h4>
                     <div className="flex flex-wrap gap-2">
-                      {["Git", "Docker", "AWS", "Figma"].map((skill) => (
+                      {[
+                        "MongoDb","MySQL","PostgreSQL","Microsoft SQL Server","Firebase","Supabase","Appwrite","AWS","Prisma"
+                      ].map((skill) => (
                         <Badge key={skill} variant="secondary" className="bg-purple-600 text-white">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-gray-300 font-medium mb-2">Tools & Others</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        "Git","Github","Docker","Figma","Dialogflow"
+                      ].map((skill) => (
+                        <Badge key={skill} variant="secondary" className="bg-pink-600 text-white">
                           {skill}
                         </Badge>
                       ))}
@@ -111,15 +160,42 @@ export default function ResumePage() {
               <CardContent className="space-y-6">
                 <div className="border-l-2 border-blue-600 pl-4">
                   <div className="flex items-center mb-2">
-                    <h3 className="text-white font-semibold">Fullstack Developer Intern</h3>
+                    <h3 className="text-white font-semibold">Software Engineering Intern</h3>
                     <Badge variant="outline" className="ml-2 border-gray-600 text-gray-300">
-                      2023 - Present
+                      June 2025 - Present
                     </Badge>
                   </div>
-                  <p className="text-blue-400 mb-2">Tech Company Inc.</p>
+                  <p className="text-blue-400 mb-2">Clinikally (YC W22)</p>
                   <p className="text-gray-300 text-sm">
-                    Developed full-stack web applications using React, Node.js, and MongoDB. Collaborated with
-                    cross-functional teams to deliver scalable solutions.
+                    Working on backend microservices, building secure, high-performance APIs and services for
+                    healthcare applications, ensuring scalability and reliability.
+                  </p>
+                </div>
+                <div className="border-l-2 border-blue-600 pl-4">
+                  <div className="flex items-center mb-2">
+                    <h3 className="text-white font-semibold">Full Stack Developer Intern</h3>
+                    <Badge variant="outline" className="ml-2 border-gray-600 text-gray-300">
+                      2024
+                    </Badge>
+                  </div>
+                  <p className="text-blue-400 mb-2">Serene MINDS</p>
+                  <p className="text-gray-300 text-sm">
+                    Built a clean, empathetic UI and fast, secure APIs for a mental health startup. Delivered a
+                    full-stack solution for booking, assessments, and client-professional communication with high
+                    data privacy.
+                  </p>
+                </div>
+                <div className="border-l-2 border-blue-600 pl-4">
+                  <div className="flex items-center mb-2">
+                    <h3 className="text-white font-semibold">Software Engineering Intern</h3>
+                    <Badge variant="outline" className="ml-2 border-gray-600 text-gray-300">
+                      2023
+                    </Badge>
+                  </div>
+                  <p className="text-blue-400 mb-2">Yantram Medtech Pvt. Ltd.</p>
+                  <p className="text-gray-300 text-sm">
+                    Developed visually engaging UI and high-performance REST APIs with React.js, Node.js,
+                    MongoDB/PostgreSQL. Focused on secure, reliable healthcare solutions from design to deployment.
                   </p>
                 </div>
               </CardContent>
@@ -130,16 +206,38 @@ export default function ResumePage() {
               <CardHeader>
                 <CardTitle className="text-white">Education</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="space-y-6">
                 <div className="border-l-2 border-green-600 pl-4">
                   <div className="flex items-center mb-2">
-                    <h3 className="text-white font-semibold">Bachelor of Technology</h3>
+                    <h3 className="text-white font-semibold">
+                      B.Tech. Computer Science & Engineering (AI)
+                    </h3>
                     <Badge variant="outline" className="ml-2 border-gray-600 text-gray-300">
-                      2020 - 2024
+                      2022 - 2026
                     </Badge>
                   </div>
-                  <p className="text-green-400 mb-2">Computer Science Engineering</p>
-                  <p className="text-gray-300 text-sm">University Name • CGPA: 8.5/10</p>
+                  <p className="text-green-400 mb-2">
+                    Institute of Engineering & Technology, Lucknow
+                  </p>
+                  <p className="text-gray-300 text-sm">Ongoing</p>
+                </div>
+                <div className="border-l-2 border-green-600 pl-4">
+                  <div className="flex items-center mb-2">
+                    <h3 className="text-white font-semibold">Jawahar Navodaya Vidyalaya,Raebareli - Class 12th</h3>
+                    <Badge variant="outline" className="ml-2 border-gray-600 text-gray-300">
+                      94.2%
+                    </Badge>
+                  </div>
+                  <p className="text-green-400 mb-2">Physics, Chemistry, Mathematics, Computer Science, English</p>
+                </div>
+                <div className="border-l-2 border-green-600 pl-4">
+                  <div className="flex items-center mb-2">
+                    <h3 className="text-white font-semibold">Jawahar Navodaya Vidyalaya,Raebareli - Class 10th</h3>
+                    <Badge variant="outline" className="ml-2 border-gray-600 text-gray-300">
+                      94.6%
+                    </Badge>
+                  </div>
+                  <p className="text-green-400 mb-2">English, Hindi, Science, Maths, Social Science</p>
                 </div>
               </CardContent>
             </Card>
@@ -153,22 +251,40 @@ export default function ResumePage() {
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 mr-3"></div>
                   <div>
-                    <p className="text-white font-medium">CodeChef 4-Star Rated</p>
-                    <p className="text-gray-300 text-sm">Competitive Programming</p>
+                    <p className="text-white font-medium">
+                      CodeChef 2-Star Rated
+                    </p>
+                    <a
+                      href="https://www.codechef.com/users/kiddodev"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-300 text-sm hover:underline"
+                    >
+                      Competitive Programming Profile
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 mr-3"></div>
                   <div>
-                    <p className="text-white font-medium">Codeforces Specialist</p>
-                    <p className="text-gray-300 text-sm">Problem Solving</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 mr-3"></div>
-                  <div>
-                    <p className="text-white font-medium">Hackathon Winner</p>
-                    <p className="text-gray-300 text-sm">Best Fullstack Solution Award</p>
+                    <p className="text-white font-medium">Previous Projects</p>
+                    <p className="text-gray-300 text-sm">
+                      <a
+                        href="https://moviez-mania.vercel.app/"
+                        className="hover:underline"
+                        target="_blank"
+                      >
+                        Moviez Mania
+                      </a>
+                      ,{" "}
+                      <a
+                        href="https://grow-frontend-lime.vercel.app/"
+                        className="hover:underline"
+                        target="_blank"
+                      >
+                        Grow Frontend
+                      </a>
+                    </p>
                   </div>
                 </div>
               </CardContent>

@@ -15,8 +15,8 @@ const navItems = [
 ]
 
 const socialLinks = [
-  { name: "GitHub", href: "https://github.com", icon: Github },
-  { name: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
+  { name: "GitHub", href: "https://github.com/divspark", icon: Github },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/divyansh-kesharwani-87b5a9195", icon: Linkedin },
   { name: "CodeChef", href: "https://codechef.com", icon: Code },
   { name: "Codeforces", href: "https://codeforces.com", icon: Trophy },
 ]

@@ -8,36 +8,37 @@ import Link from "next/link"
 
 const featuredProjects = [
   {
-    title: "E-Commerce Platform",
+    title: "Organic Store",
     description:
-      "A full-stack e-commerce solution with React, Node.js, and MongoDB featuring user authentication, payment integration, and admin dashboard.",
+      "A full-stack farmers marketplace where farmers can upload their produce like fruits and vegetables and sell them effortlessly. Includes a complete farmer dashboard, admin dashboard, and a clean, user-friendly UI/UX design.",
     image: "/placeholder.svg?height=250&width=400",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveUrl: "#",
-    githubUrl: "#",
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+    liveUrl: "https://organic-store-bice.vercel.app/",
+    githubUrl: "https://github.com/divspark/OrganicStore",
     featured: true,
   },
   {
-    title: "Task Management App",
+    title: "Medicare Hospital Management Website",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "A sophisticated hospital management system that manages doctors, departments, and wards, and provides detailed information about various diseases. Includes a responsive and intuitive user interface.",
     image: "/placeholder.svg?height=250&width=400",
-    technologies: ["Next.js", "Socket.io", "PostgreSQL", "Tailwind"],
-    liveUrl: "#",
-    githubUrl: "#",
+    technologies: ["React", "Tailwind CSS", "Node.js", "PostgreSQL"],
+    liveUrl: "https://medi-care-plus-seven.vercel.app/",
+    githubUrl: "https://github.com/divspark/MediCarePlus",
     featured: true,
   },
   {
-    title: "Weather Dashboard",
+    title: "College Placement Website",
     description:
-      "A responsive weather dashboard with location-based forecasts, interactive charts, and beautiful weather animations.",
+      "A comprehensive placement portal featuring a placement calendar to display upcoming company visits, company details, and previous interview questions asked by companies. Designed for smooth and engaging user experience.",
     image: "/placeholder.svg?height=250&width=400",
-    technologies: ["Vue.js", "OpenWeather API", "Chart.js"],
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: false,
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+    liveUrl: "https://placement-website-rho.vercel.app/",
+    githubUrl: "https://github.com/divspark/PlacementWebsite",
+    featured: true,
   },
-]
+];
+
 
 export default function Projects() {
   return (

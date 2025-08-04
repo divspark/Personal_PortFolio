@@ -53,25 +53,12 @@ const toolCategories = [
     ],
   },
   {
-    title: "Design & UI/UX",
-    icon: Palette,
-    color: "from-pink-500 to-rose-500",
-    tools: [
-      { name: "Figma", level: 80 },
-      { name: "Adobe XD", level: 70 },
-      { name: "Photoshop", level: 75 },
-      { name: "UI Design", level: 85 },
-      { name: "Prototyping", level: 80 },
-    ],
-  },
-  {
     title: "Mobile Development",
     icon: Smartphone,
     color: "from-indigo-500 to-purple-500",
     tools: [
       { name: "React Native", level: 75 },
       { name: "Expo", level: 80 },
-      { name: "Flutter", level: 60 },
       { name: "PWA", level: 85 },
       { name: "Responsive Design", level: 95 },
     ],

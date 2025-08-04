@@ -7,8 +7,8 @@ import { Mail, MessageCircle, ArrowRight, Github, Linkedin, Code, Trophy } from 
 import Link from "next/link"
 
 const socialLinks = [
-  { name: "GitHub", href: "https://github.com", icon: Github, color: "hover:text-gray-400" },
-  { name: "LinkedIn", href: "https://linkedin.com", icon: Linkedin, color: "hover:text-blue-400" },
+  { name: "GitHub", href: "https://github.com/divspark", icon: Github, color: "hover:text-gray-400" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/divyansh-kesharwani-87b5a9195", icon: Linkedin, color: "hover:text-blue-400" },
   { name: "CodeChef", href: "https://codechef.com", icon: Code, color: "hover:text-orange-400" },
   { name: "Codeforces", href: "https://codeforces.com", icon: Trophy, color: "hover:text-red-400" },
 ]

@@ -13,79 +13,62 @@ const projectCategories = [
     color: "from-blue-500 to-cyan-500",
     projects: [
       {
-        title: "E-Commerce Platform",
+        title: "Organic Store",
         description:
-          "A full-stack e-commerce solution with React, Node.js, and MongoDB featuring user authentication, payment integration, and admin dashboard.",
+          "A full-stack farmers marketplace where farmers can upload their produce like fruits and vegetables and sell them effortlessly. Includes a complete farmer dashboard, admin dashboard, and a clean, user-friendly UI/UX design.",
         image: "/placeholder.svg?height=200&width=300",
-        technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-        liveUrl: "#",
-        githubUrl: "#",
+        technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+        liveUrl: "https://organic-store-bice.vercel.app/",
+        githubUrl: "https://github.com/divspark/OrganicStore",
         featured: true,
       },
       {
-        title: "Task Management App",
+        title: "Medicare Hospital Management Website",
         description:
-          "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+          "A sophisticated hospital management system that manages doctors, departments, and wards, and provides detailed information about various diseases. Includes a responsive and intuitive user interface.",
         image: "/placeholder.svg?height=200&width=300",
-        technologies: ["Next.js", "Socket.io", "PostgreSQL", "Tailwind"],
-        liveUrl: "#",
-        githubUrl: "#",
+        technologies: ["React", "Tailwind CSS", "Node.js", "PostgreSQL"],
+        liveUrl: "https://medi-care-plus-seven.vercel.app/",
+        githubUrl: "https://github.com/divspark/MediCarePlus",
+        featured: true,
+      },
+      {
+        title: "College Placement Website",
+        description:
+          "A comprehensive placement portal featuring a placement calendar to display upcoming company visits, company details, and previous interview questions asked by companies. Designed for smooth and engaging user experience.",
+        image: "/placeholder.svg?height=200&width=300",
+        technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+        liveUrl: "https://placement-website-rho.vercel.app/",
+        githubUrl: "https://github.com/divspark/PlacementWebsite",
         featured: true,
       },
     ],
   },
-  {
-    title: "Mobile Applications",
-    icon: Smartphone,
-    color: "from-purple-500 to-pink-500",
-    projects: [
-      {
-        title: "Weather App",
-        description:
-          "A beautiful weather application with location-based forecasts and interactive charts built with React Native.",
-        image: "/placeholder.svg?height=200&width=300",
-        technologies: ["React Native", "Expo", "Weather API"],
-        liveUrl: "#",
-        githubUrl: "#",
-        featured: false,
-      },
-    ],
-  },
+  // {
+  //   title: "Mobile Applications",
+  //   icon: Smartphone,
+  //   color: "from-purple-500 to-pink-500",
+  //   projects: [],
+  // },
   {
     title: "API & Backend",
     icon: Database,
     color: "from-green-500 to-emerald-500",
     projects: [
       {
-        title: "Social Media API",
+        title: "Organic Store",
         description:
-          "RESTful API for social media platform with user authentication, posts, comments, and real-time notifications.",
+          "Backend services for the Organic Store marketplace managing farmers, products, orders, and admin functionalities.",
         image: "/placeholder.svg?height=200&width=300",
         technologies: ["Node.js", "Express", "MongoDB", "JWT"],
-        liveUrl: "#",
-        githubUrl: "#",
+        liveUrl: "https://organic-store-bice.vercel.app/",
+        githubUrl: "https://github.com/divspark/OrganicStore",
         featured: false,
       },
     ],
   },
-  {
-    title: "UI/UX Design",
-    icon: Palette,
-    color: "from-orange-500 to-red-500",
-    projects: [
-      {
-        title: "Design System",
-        description:
-          "Comprehensive design system with reusable components, design tokens, and documentation for consistent UI.",
-        image: "/placeholder.svg?height=200&width=300",
-        technologies: ["Figma", "Storybook", "React", "Tailwind"],
-        liveUrl: "#",
-        githubUrl: "#",
-        featured: false,
-      },
-    ],
-  },
-]
+];
+
 
 export default function ProjectsPage() {
   return (
