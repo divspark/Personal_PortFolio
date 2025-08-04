@@ -16,7 +16,7 @@ const projectCategories = [
         title: "Organic Store",
         description:
           "A full-stack farmers marketplace where farmers can upload their produce like fruits and vegetables and sell them effortlessly. Includes a complete farmer dashboard, admin dashboard, and a clean, user-friendly UI/UX design.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/OrganicStoreImg.png",
         technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
         liveUrl: "https://organic-store-bice.vercel.app/",
         githubUrl: "https://github.com/divspark/OrganicStore",
@@ -26,7 +26,7 @@ const projectCategories = [
         title: "Medicare Hospital Management Website",
         description:
           "A sophisticated hospital management system that manages doctors, departments, and wards, and provides detailed information about various diseases. Includes a responsive and intuitive user interface.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/MedicarePlusImg.png",
         technologies: ["React", "Tailwind CSS", "Node.js", "PostgreSQL"],
         liveUrl: "https://medi-care-plus-seven.vercel.app/",
         githubUrl: "https://github.com/divspark/MediCarePlus",
@@ -36,7 +36,7 @@ const projectCategories = [
         title: "College Placement Website",
         description:
           "A comprehensive placement portal featuring a placement calendar to display upcoming company visits, company details, and previous interview questions asked by companies. Designed for smooth and engaging user experience.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/PlacementWebsiteImg.png",
         technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
         liveUrl: "https://placement-website-rho.vercel.app/",
         githubUrl: "https://github.com/divspark/PlacementWebsite",
@@ -59,7 +59,7 @@ const projectCategories = [
         title: "Organic Store",
         description:
           "Backend services for the Organic Store marketplace managing farmers, products, orders, and admin functionalities.",
-        image: "/placeholder.svg?height=200&width=300",
+        image: "/images/OrganicStoreImg.png",
         technologies: ["Node.js", "Express", "MongoDB", "JWT"],
         liveUrl: "https://organic-store-bice.vercel.app/",
         githubUrl: "https://github.com/divspark/OrganicStore",
