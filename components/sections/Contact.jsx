@@ -3,14 +3,13 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Mail, MessageCircle, ArrowRight, Github, Linkedin, Code, Trophy, Send } from "lucide-react"
+import { Mail, MessageCircle, ArrowRight, Github, Linkedin, Code, Send } from "lucide-react"
 import Link from "next/link"
 
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/divspark", icon: Github, color: "hover:text-gray-300" },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/divyansh-kesharwani-87b5a9195", icon: Linkedin, color: "hover:text-blue-400" },
-  { name: "CodeChef", href: "https://codechef.com", icon: Code, color: "hover:text-orange-400" },
-  { name: "Codeforces", href: "https://codeforces.com", icon: Trophy, color: "hover:text-red-400" },
+  { name: "CodeChef", href: "https://www.codechef.com/users/kiddodev", icon: Code, color: "hover:text-orange-400" },
 ]
 
 export default function Contact() {

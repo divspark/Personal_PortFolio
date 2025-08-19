@@ -18,7 +18,7 @@ const quickLinks = [
   { name: "Contact", href: "/contact" },
 ]
 
-const services = ["Web Development", "Mobile Apps", "UI/UX Design", "API Development", "Database Design", "Consulting"]
+const services = ["Web Development", "Mobile Apps", "API Development", "Database Design"]
 
 export default function Footer() {
   return (

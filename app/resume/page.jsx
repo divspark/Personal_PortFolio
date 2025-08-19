@@ -80,7 +80,7 @@ export default function ResumePage() {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="w-4 h-4 mr-3" />
-                  <span className="text-sm">India</span>
+                  <span className="text-sm">Lucknow,India</span>
                 </div>
               </CardContent>
             </Card>
@@ -282,7 +282,7 @@ export default function ResumePage() {
                         className="hover:underline"
                         target="_blank"
                       >
-                        Grow Frontend
+                        Grow - Organic Store
                       </a>
                     </p>
                   </div>

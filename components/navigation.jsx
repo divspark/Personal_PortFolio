@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Github, Linkedin, Code, Trophy } from "lucide-react"
+import { Menu, X, Github, Linkedin, Code } from "lucide-react"
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -17,8 +17,7 @@ const navItems = [
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/divspark", icon: Github },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/divyansh-kesharwani-87b5a9195", icon: Linkedin },
-  { name: "CodeChef", href: "https://codechef.com", icon: Code },
-  { name: "Codeforces", href: "https://codeforces.com", icon: Trophy },
+  { name: "CodeChef", href: "https://www.codechef.com/users/kiddodev", icon: Code },
 ]
 
 export default function Navigation() {
