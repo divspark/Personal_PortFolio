@@ -127,13 +127,13 @@ export default function Hero() {
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
-                className="relative w-80 h-80 rounded-full overflow-hidden bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-600 p-1 pulse-glow"
+                className="relative w-84 h-84 rounded-full overflow-hidden bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-600 p-1 pulse-glow"
               >
                 <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center relative overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=300&width=300"
+                    src="./Portfolio_IMG.png"
                     alt="Divyansh - Fullstack Developer"
-                    className="w-72 h-72 rounded-full object-cover"
+                    className="w-84 h-84 rounded-full object-cover"
                   />
 
                   {/* Overlay gradient */}
@@ -155,7 +155,7 @@ export default function Hero() {
                 transition={{ duration: 5, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
                 className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-green-500 to-cyan-600 rounded-xl flex items-center justify-center shadow-lg backdrop-blur-sm"
               >
-                <span className="text-white font-bold text-lg">⚛️</span>
+                <span className="text-white font-bold text-3xl">⚛️</span>
               </motion.div>
 
               <motion.div
